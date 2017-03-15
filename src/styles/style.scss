@@ -1,0 +1,41 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+
+}
+
+h2 {
+	font-size: 60px;
+	margin: 0;
+}
+
+p{
+	margin:0;
+}
+.meow{
+	font-size: 35px;
+}
+
+.time-machine {
+	text-align: center;
+}
+
+button {
+	background-opacity: 0;
+	max-width: 10%;
+	max-height: 10%;
+	display: inline-block;
+	margin: 40px;
+
+}
+
+.rewind {
+	transform: scaleX(-1);
+}
+ 
+.pause, .rewind, .forward {
+	max-width: 100%;
+	max-height: 100%;
+	cursor: pointer;
+	
+}
